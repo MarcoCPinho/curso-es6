@@ -7,7 +7,6 @@ const usuarios = [
     { nome: 'Lucas', idade: 30, empresa: 'Facebook' },
 ];
 */
-
 /*
 //2º exercício
 //2.1 Utilizando o map
@@ -29,7 +28,6 @@ const asd = usuarios
 
 console.log(asd);
 */
-
 /*
 //3º exercício
 //3.1
@@ -54,7 +52,6 @@ mostraUsuario(nome);
 //3.4
 const promise = () => new Promise((resolve, reject) => resolve());
 */
-
 /*
 4º exercício
 //4.1 Desestruturação simples
@@ -70,7 +67,6 @@ console.log(nome);
 console.log(cidade);
 console.log(estado);
 */
-
 /*
 //4.2 Desestruturação em parâmetros
 function mostraInfo({nome, idade}) {
@@ -78,7 +74,6 @@ function mostraInfo({nome, idade}) {
    }
    mostraInfo({ nome: 'Diego', idade: 23 })
 */
-
 /*
 //5º Exercício
 //5.1 Rest
@@ -112,14 +107,12 @@ const usuario3 = {...usuario, endereco: { ...usuario.endereco, cidade: 'Lontras'
 console.log(usuario2);
 console.log(usuario3);
 */
-
 /*
 //6º Exercício
 const usuario = 'Diego';
 const idade = 23;
 console.log(`O usuário ${usuario} possui ${idade} anos`);
 */
-
 /*
 //7º exercício
 const nome = 'Diego';
@@ -130,4 +123,3 @@ const usuario = {
  cidade: 'Rio do Sul',
 };
 */
-"use strict";
