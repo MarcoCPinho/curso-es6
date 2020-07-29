@@ -123,3 +123,11 @@ const usuario = {
  cidade: 'Rio do Sul',
 };
 */
+/**************************** Modulo WebPack ***************************************/
+//1º exercício
+export const idade = 30;
+export default class Usuario {
+ static info() {
+ console.log('Apenas teste');
+ }
+}

@@ -5,7 +5,7 @@ function soma(a = 3, b = 6) { //se deixar sem valor ele da erro, pois um item va
 }
 */
 //aplicando arrow function na sintaxe acima:
-const soma = (a = 3, b = 6) => a + b;
+export const soma = (a = 3, b = 6) => a + b;
 
 console.log(soma(1)); //7
 console.log(soma()); //9
