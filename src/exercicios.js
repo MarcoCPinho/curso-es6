@@ -124,7 +124,7 @@ const usuario = {
 };
 */
 /**************************** Modulo WebPack ***************************************/
-//1º exercício
+//1º exercício, 2º e 3º
 export const idade = 30;
 export default class Usuario {
  static info() {
